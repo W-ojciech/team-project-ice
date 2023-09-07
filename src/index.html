@@ -3,19 +3,167 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nagłówek strony</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-    />
+    <title>Ice Cream</title>
   </head>
   <body>
-    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
-    <include src="./partials/example.html"></include>
+    <header>
+      <a href="#"
+        >LOGO<svg><use></use></svg
+      ></a>
+      <nav>
+        <menu>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">How it's made?</a></li>
+          <li><a href="#">Our products</a></li>
+          <li><a href="#">Contact</a></li>
+        </menu>
+        <button type="button">Buy now</button>
+      </nav>
 
-    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
-    <script src="./index.js" type="module"></script>
+      <h1>ice cream made with passion</h1>
+      <a href="#">Products</a>
+      <a href="#">How it's made?</a>
+      <p>16 cafes</p>
+      <p>23 food trucks</p>
+      <img scr="#" alt="plate with scoops of ice creams" />
+      <p>
+        Indulge in a scoop of ice cream made with passion and treat your taste buds to an
+        unforgettable experience!
+      </p>
+      <img scr="#" alt="smiling ice creams" />
+    </header>
+    <main>
+      <section class="products-section">
+        <p>100% natural</p>
+        <h2>Products</h2>
+        <ul>
+          <li>
+            <h3>Ice Cream</h3>
+            <p>
+              Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural
+              stabilizer
+            </p>
+            <button type="button">strzałka</button>
+          </li>
+          <li>
+            <h3>Ice Coffee</h3>
+            <p>
+              Fragrant invigorating drink created from 100% natural ingredients without the use of
+              preservatives and flavor enhancers
+            </p>
+            <button type="button">strzałka</button>
+          </li>
+          <li>
+            <h3>Milkshakes</h3>
+            <p>
+              Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries
+              and other sweets of your choice
+            </p>
+            <button type="button">strzałka</button>
+          </li>
+        </ul>
+      </section>
+      <section class="about-section">
+        <p>tradition and love</p>
+        <h2>how it's made?</h2>
+        <img src="#" alt="cow" />
+        <p>
+          Ice is a place where you will become not only a little happier, but also healthier. Health
+          is the main value for us, and we follow it when creating our handmade desserts.
+        </p>
+        <p>
+          We use traditional recipes and 100% natural ingredients. Our products are so natural that
+          they can be given to children from the age of three years. Sweets lovers can expect 55
+          types of ice cream, 15 types of coffee and 23 milkshakes.
+        </p>
+        <button type="button">Read more</button>
+      </section>
+      <section class="advantages-section">
+        <h2>Advantages</h2>
+        <!--do ukrycia-->
+        <ul>
+          <li>
+            <svg><use>ikona</use></svg>
+            <p>721 Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+
+          <li>
+            <svg><use>ikona</use></svg>
+            <p>16kg Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+
+          <li>
+            <svg><use>ikona</use></svg>
+            <p>84 Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="gallery-section">
+        <img src="#" alt="pictures of ice creams" />
+        <!--slider z obrazami lodów-->
+      </section>
+
+      <section class="customer-reviews-section">
+        <img src="#" alt="pictures of client" />
+        <p>
+          I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In
+          addition, you have beautiful serving, cozy atmosphere and polite staff.
+        </p>
+        <p>Emily, Los Angeles</p>
+      </section>
+
+      <section class="Contacts">
+        <h2>Contacts</h2>
+        <!--do ukrycia-->
+        <ul>
+          <li>
+            <p>Cafe</p>
+            <adress>
+              <p>Chicago 10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</p>
+              <p>Monday-Friday 06:00 AM - 10:00 PM Saturday-Sunday 08:00 AM - 16:00 PM</p>
+              <a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a>
+              <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </adress>
+          </li>
+          <li>
+            <p>Food Truck</p>
+            <adress>
+              <p>Los Angeles 1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</p>
+              <p>Monday-Friday 06:00 AM - 10:00 PM Saturday-Sunday 08:00 AM - 16:00 PM</p>
+              <a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a>
+              <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </adress>
+          </li>
+          <li>
+            <p>Cafe</p>
+            <adress>
+              <p>New York 726 Sterling Pl, Brooklyn, NY 11222, USA</p>
+              <p>Monday-Friday 06:00 AM - 10:00 PM Saturday-Sunday 08:00 AM - 16:00 PM</p>
+              <a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a>
+              <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </adress>
+          </li>
+        </ul>
+        <button type="button">Our Locations</button>
+        <button type="button">Franchise</button>
+      </section>
+    </main>
+    <footer>
+      <p>homemade ice cream made</p>
+      <p>with passion</p>
+      <svg>
+        <use><!--ikona social media--></use>
+      </svg>
+      <svg>
+        <use><!--ikona social media--></use>
+      </svg>
+      <svg>
+        <use><!--ikona social media--></use>
+      </svg>
+      <p>Feel free to contact</p>
+      <adress><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></adress>
+      <p>© 2022 - IceCream. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
