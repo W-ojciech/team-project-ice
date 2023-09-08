@@ -1,0 +1,50 @@
+<!-- Hero Header
+
+W headerze znajduje się logo, menu nawigacyjne oraz przycisk.
+Logo na makiecie wyświetlane jest w formacie png/svg.
+
+Menu nawigacyjne w wersji mobilnej i tabletowej jest wyświetlane jako rozwijany pasek boczny. Menu ruchome jest stałe,
+wysokość odpowiada wysokości viewport. Menu jest zaimplementowane za pomocą linków kotwicznych, które prowadzą do
+odpowiednich rozdziałów makiety.
+
+Przycisk “Buy now”otwiera okno modalne z formularzem zamówienia, składającym się z punktowanej listy produktów (której
+elementy zawierają ukryte pola wyboru), z wejść (należy dodać minimalną walidację danych przy wprowadzaniu za pomocą
+atrybutu pattern) oraz przycisku Submit. W przypadku wprowadzenia nieprawidłowych danych pole powinno podświetlać się na
+czerwono. Walidacja nie powinna podświetlać się, dopóki użytkownik nie wprowadzi danych.
+
+Tekst “Ice cream made with passion” jest tytułem strony.
+
+Przyciski “Products” i “How it's made”, umieszczone pod tytułem, są linkami kotwicznymi do odpowiednich rozdziałów.
+
+Obrazy na Hero ustawić bezwzględnie. Dodatkowo można dla nich utworzyć animację pojawienia się podczas ładowania strony. -->
+
+
+<header>
+    <a href="#">LOGO<svg>
+            <use></use>
+        </svg></a>
+    <nav>
+        <menu>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it's made?</a></li>
+            <li><a href="#">Our products</a></li>
+            <li><a href="#">Contact</a></li>
+        </menu>
+        <button type="button">Buy now</button>
+    </nav>
+
+    <h1>ice cream made with passion</h1>
+    <a href="#">Products</a>
+    <a href="#">How it's made?</a>
+
+    <!-- te dwie linijki później, najpierw robimy wersję mobilną -->
+    <!-- <p>16 cafes</p>
+    <p>23 food trucks</p> -->
+
+    <img scr="#" alt="plate with scoops of ice creams" />
+    <p>
+        Indulge in a scoop of ice cream made with passion and treat your taste buds to an
+        unforgettable experience!
+    </p>
+    <img scr="#" alt="smiling ice creams" />
+</header>
